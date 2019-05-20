@@ -1,0 +1,16 @@
+header{
+    width: 100%;
+    position: fixed;
+    background-color: pink;
+    height: 100px;
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin-inline-start: 50px;
+}
