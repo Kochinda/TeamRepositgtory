@@ -68,7 +68,7 @@ ul li:last-child{
     margin-top: 30px;
 }
 
-.title button{
+.btn{
     background-color: white;
     border-radius: 3px;
     color: orange;
@@ -78,9 +78,10 @@ ul li:last-child{
     border: none;
 }
 
-.title button:hover{
+.btn:hover{
     background-color: red;
     color: white;
+    transition: all 1s;
 }
 
 
@@ -111,6 +112,10 @@ ul li:last-child{
 
 }
 
+.menu-title-show{
+    display: none;
+}
+
 .iconx:hover{
     transform: rotate(135deg);
     transition: all 2s;
@@ -135,8 +140,8 @@ ul li:last-child{
     display: flex;
     flex-direction: column;
     
-    
 }
+
 
 .giftcard{
     background-image: url(/assets/img/cache_1024_1024_0_0_80_16777215_GiftCard_web.jpg);
@@ -145,6 +150,8 @@ ul li:last-child{
     grid-area: left;
     justify-content: center;
     align-items: center;
+    
+
     
     
 }
@@ -168,17 +175,61 @@ ul li:last-child{
 }
 
 .card-text{
-    font-size: 20px;
+    font-size: 45px;
     color: white;
+    padding: 0 20px;
+    text-align: center;
     
+
+}
+
+/* Hungry now? section */
+.hungry-now{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(/assets/img/IMG_1162.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+}
+.hungry-now h2{
+    color:white;
+    font-family: italic;
+    font-size: 40px;
+    letter-spacing: 10px;
 
 }
 
 
 
+
+
 /* footer */
 .footer{
-    background-color: grey;
+    background-color: black;
     width: 100%;
-    height: 100px;
+    height: 50px;
+    color: wheat;
+}
+
+.footer p{
+    padding-top: 20px;
+    float: left;
+}
+
+.sns-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: cornsilk;
+    margin-right: 30px;
+    padding-top: 10px;
+    
+}
+
+.sns-icons li{
+    margin-left: 30px;
 }
