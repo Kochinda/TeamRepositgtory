@@ -44,11 +44,11 @@ ul li:last-child{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-image: url(/assets/img/opener_bg_menu.jpg);
+    background-image: url(../img/opener_bg_menu.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    color: #fff;
+    color:wheat;
 }
 .title span{
     margin: 30px;
@@ -95,7 +95,6 @@ ul li:last-child{
 }
 
 .menu-title-close{
-    width: 100%;
     padding: 60px;
 }
 
@@ -144,7 +143,7 @@ ul li:last-child{
 
 
 .giftcard{
-    background-image: url(/assets/img/cache_1024_1024_0_0_80_16777215_GiftCard_web.jpg);
+    background-image: url(../img/cache_1024_1024_0_0_80_16777215_GiftCard_web.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     grid-area: left;
@@ -157,7 +156,7 @@ ul li:last-child{
 }
 
 .product{
-    background-image: url(/assets/img/cache_1024_1024_0_0_80_16777215_unnamed.jpg);
+    background-image: url(../img/cache_1024_1024_0_0_80_16777215_unnamed.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     grid-area: center;
@@ -166,7 +165,7 @@ ul li:last-child{
 }
 
 .tshirt{
-    background-image: url(/assets/img/cache_1024_1024_0_0_80_16777215_4R-cow-tee.jpg);
+    background-image: url(../img/cache_1024_1024_0_0_80_16777215_4R-cow-tee.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     grid-area: right;
@@ -176,7 +175,7 @@ ul li:last-child{
 
 .card-text{
     font-size: 45px;
-    color: white;
+    color: wheat;
     padding: 0 20px;
     text-align: center;
     
@@ -189,14 +188,14 @@ ul li:last-child{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-image: url(/assets/img/IMG_1162.JPG);
+    background-image: url(../img/IMG_1162.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
     color: #fff;
 }
 .hungry-now h2{
-    color:white;
+    color: wheat;
     font-family: italic;
     font-size: 40px;
     letter-spacing: 10px;
