@@ -28,7 +28,7 @@ $(function(){
         // div#over にlightboxを追加
         $('#over').append($('<div class="lightbox">'));
 
-        $('.lightbox').text('Come to our reststaurant, you can get special deals!!!');
+        $('.lightbox').text('Come to our restaurant, you get special deals!!!');
 
 
         // 画面がクリックされたら、ライトボックスをけす

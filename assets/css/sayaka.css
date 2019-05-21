@@ -5,38 +5,44 @@
     position: fixed;
     background-color: black;
     height: 60px;
-
-}
-
-nav ul{
+  
+  }
+  
+  nav ul{
     display: flex;    
     justify-content: center;
     margin-top: 20px;
     
-}
-
-.nav-list{
+  }
+  
+  .nav-list{
     margin-inline-start: 50px;
     padding-left: 10px;
     padding-top: 10px;
     border-left: solid 4px orange;
     color: white;
-
-}
-.nav-list:hover{
+  
+  }
+  
+  ul li:first-child{
+    border: none;
+    padding: 0;
+  
+  }
+  
+  ul li:last-child{
+    border: none;
+    padding: 0;
+  }
+  
+  .text-deco{
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover{
     color: orange;
-}
-
-ul li:first-child{
-    border: none;
-    padding: 0;
-
-}
-
-ul li:last-child{
-    border: none;
-    padding: 0;
-}
+  }
 
 /* main-title */
 .title{
@@ -134,6 +140,7 @@ ul li:last-child{
     
 }
 
+
 .card-btn{
     background-color: white;
     border: none;
@@ -167,6 +174,7 @@ ul li:last-child{
     grid-area: left;
     justify-content: center;
     align-items: center;
+    
         
 }
 
@@ -190,7 +198,7 @@ ul li:last-child{
 
 .card-text{
     font-size: 45px;
-    color: wheat;
+    color: orange;
     padding: 0 20px;
     text-align: center;
     
@@ -215,12 +223,13 @@ ul li:last-child{
     display: inline-block;
     width: 500px;
     height: 500px;
-    background-color: red;
-    color: white;
+    background-color: whitesmoke;
+    color: orange;
     font-size: 30px;
     text-align: center;
     letter-spacing: 20px;
-    line-height:150%;
+    line-height: 3.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
     
 }
@@ -238,7 +247,7 @@ ul li:last-child{
     color: #fff;
 }
 .hungry-now h2{
-    color: wheat;
+    color:orange;
     font-family: italic;
     font-size: 40px;
     letter-spacing: 10px;
