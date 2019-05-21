@@ -5,6 +5,7 @@
     margin-left:-10px;
 }
 
+
 header{
     display: flex;
     justify-content: space-around;
@@ -35,38 +36,56 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-    color: black;
-    position: relative;
-    color: white;
+    color:white;
+    font-size: 30px;
     font-family: fantasy;
-    font-size: 35px;
   }
  
   video {  
     width: 100%;
-    height: 100%;
     position: absolute;
     top:30px;
     left:0;
-    z-index: -1;
+    z-index:-1;
   }
+
+  .btns button{
+    background-color: black;
+    color: #fff;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition-duration: 500ms;
+  }
+  .btns button:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 500ms;
+  }
+
+   .btns :first-child{
+    margin-right:10px;
+   }
 
 
   #main2 h2{
       background-color: black;
       color: white;
-      margin-top: 32px;
       margin-left:0;
       margin-right: 0; 
       font-size: 40px;
       text-align: center;
       font-family: 'Times New Roman', Times, serif;
+      margin: 0;
   }
 
   .img-box {
       margin-top:0;
     display: flex;
     justify-content: center;
+    background-color: black;
+    margin-left: -10px;
   }
   
   .img-box li {
@@ -93,10 +112,11 @@ header{
   .contact {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
     height: 400px;
     background-color:black;
+    margin-top:-18px;
+    margin-left:-10px; 
   }
   
   .contact .form {
@@ -145,3 +165,13 @@ header{
     color: black;
     transition-duration: 500ms;
   }
+  
+  body{
+  grid-template: 
+  "header"100px
+  "main"400px
+  "main2"400px
+  "aside"300px
+  "footer"100px
+  /1fr;
+}
