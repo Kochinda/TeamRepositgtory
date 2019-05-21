@@ -1,49 +1,147 @@
-body{
-    background-color: darkgray;
-  }
-  
-  .section1 {
-    position: relative;
-    width: auto;
-    height:100vh;
+#fixed{
+    position: fixed;
+    width: 100%;
+    margin-top: -25px;
+    margin-left:-10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: azure;
+}
+.icon{
     display: flex;
     align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    background-size: cover;
-  
-  }
-  
-  .section1 button {
-    text-align: center;
-    font-size: 6rem;
-    font-family: "Cookie";
-    padding: 20px;
-    margin: 15px;
-    z-index: 1;
-    opacity: 0.50;
-    color: rgb(245, 169, 128, 0.393);
-    position: absolute;
+    margin-left: -90px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
   }
 
-  .section1 :hover{
-      color:rgb(rgb(215, 160, 119);
+.header-right li:first-child{
+    margin-right:20px; 
+}
+
+#video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: black;
+    position: relative;
+    color: white;
+    font-family: fantasy;
+    font-size: 35px;
   }
-  
-  
-  .video-container {
-    width: 100%;
-  }
-  
-  .color-overlay {
-    background-color: black;
-    width: 100%;
-    height: 100vh;
-    opacity: 0.95;
-  }
-  
-  video {
+ 
+  video {  
     width: 100%;
     height: 100%;
-    margin: 0;
+    position: absolute;
+    top:30px;
+    left:0;
+    z-index: -1;
+  }
+
+
+  #main2 h2{
+      background-color: black;
+      color: white;
+      margin-top: 32px;
+      margin-left:0;
+      margin-right: 0; 
+      font-size: 40px;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+  .img-box {
+      margin-top:0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .img-box li {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+    text-align: center;
+  }
+  
+  .img-box li:last-child {
+    margin-right: 0;
+  }
+  
+  .img-box li img {
+    height: 300px;
+    width: 300px;
+  }
+  
+  .img-box li span {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    background-color:black;
+  }
+  
+  .contact .form {
+    margin: 30px 0 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form .name {
+    margin-bottom: 10px;
+  }
+  
+  .form .name, 
+  .form .email {
+    height: 50px;
+    width: 400px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .form-left {
+    margin-right: 50px;
+  }
+  
+  .form .inquiry {
+    height: 120px;
+    width: 400px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .contact button {
+    background-color: black;
+    color: #fff;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    transition-duration: 500ms;
+    margin-top: -10px;
+  }
+  
+  .contact button:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 500ms;
   }

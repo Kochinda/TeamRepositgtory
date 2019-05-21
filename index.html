@@ -4,27 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>4 Rivers Smokehouse</title>
 </head>
 <body>
-    <div id = main1>
-        <div class="section1">
-            
-            <div class="video-container">
-               
-                <div class="color-overlay"> 
-                    <video autoplay loop muted>
-                        <source src="img/IMG_1155.mov" type="video/mp4">
-                    </video>
-                </div>
-                <button>SEE THE MENU </button>
-            </div>
-       </div>  
+    <header id="fixed">
+      <div class="icon">
+          <img src="assets/img/スクリーンショット 2019-05-20 12.54.20.png" alt="logo">
+      </div>
+      <ul class = 'header-right'>
+         <li>Menu</li>
+         <li>Find Us</li>
+    </header>
+    <main id="video">
+        
+        <h1>HOT BRISKET NOW</h1>
+        <ul>
+            <li>18 YEARS TO MASTER</li>
+            <li>YOURS TO SAVOR</li>
+        </ul>
+
+    <div class="btns">
+        <button class="menu">SEE THE MENU</button>
+        <button class="online">ORDER ONLINE</button>
+        <video autoplay loop muted src="assets/img/IMG_1155.mov">
+        </video>
+       
     </div>
-   
+    </main>
+
+    <main id="main2">
+        <h2>Redefining the art of smoking,
+                one brisket at a time.</h2>
+      
+        <ul class="img-box">
+            <li>
+                <img src="assets/img/IMG_1156.JPG" alt="img">
+            </li>
+            <li>
+                <img src="assets/img/IMG_1158.JPG" alt="img">
+            </li>
+            <li>
+                <img src="assets/img/IMG_1162.JPG" alt="img">
+            </li>
+        </ul>  
+        
+        <aside class="contact">
+    <h2 class="sub-title">contact us</h2>
+    <!-- form -->
+    <form action="">
+      <div class="form">
+        <!-- 左側のフォーム -->
+        <div class="form-left">
+          <fieldset>
+            <input  class="name" type="text" placeholder="お名前">
+          </fieldset>
+          <fieldset>
+            <input  class="email" type="email" placeholder="メールアドレス">
+          </fieldset>
+        </div>
+        <!-- 右側のフォーム -->
+        <fieldset>
+          <textarea  class="inquiry" name="" placeholder="お問い合わせ内容"></textarea>
+        </fieldset>
+      </div>
+      <button>submit</button>
+    </form>
+  </aside>
+    </main>
+    <footer>
+
+    </footer>  
+
+
 </body>
 </html>
