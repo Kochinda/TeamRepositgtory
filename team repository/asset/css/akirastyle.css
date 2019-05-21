@@ -1,0 +1,758 @@
+body{
+    margin: 0 auto;
+    background-color: lightgreen;
+    color: black;
+}
+
+header{
+    height: 60px;
+  
+
+}
+
+
+
+.logo img{
+    width: 40%;
+    height: 100px;
+}
+
+.sidemenu{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    padding: 30px 20px 0;
+}
+
+ul li{
+    list-style: none;
+
+}
+
+.sidemenu ul{
+    color: white;
+    text-align: center;
+
+}
+
+html.df-fix-layout,html.df-fix-layout body{
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    position:relative
+}
+
+[visible]{
+    visibility:visible;
+}
+
+.df-m-0{
+    margin:0;
+}
+
+.df-mt-0,.df-my-0{
+    margin-top:0;
+}
+
+.df-mr-0,.df-mx-0{
+    margin-right:0;
+}
+
+.df-mb-0,.df-my-0{
+    margin-bottom:0;
+}
+
+.df-ml-0,.df-mx-0{
+    margin-left:0;
+}
+
+.df-m-1{
+    margin:8px;
+}
+
+.df-mt-1,.df-my-1{
+    margin-top:8px;
+}
+
+.df-mr-1,.df-mx-1{
+    margin-right:8px;
+}
+
+.df-mb-1,.df-my-1{
+    margin-bottom:8px;
+}
+
+.df-ml-1,.df-mx-1{
+    margin-left:8px;
+}
+
+.df-m-2{
+    margin:16px;
+}
+
+.df-mt-2,.df-my-2{
+    margin-top:16px;
+}
+
+.df-mr-2,.df-mx-2{
+    margin-right:16px;
+}
+
+.df-mb-2,.df-my-2{
+    margin-bottom:16px;
+}
+
+.df-ml-2,.df-mx-2{
+    margin-left:16px;
+}
+
+.df-m-3{
+    margin:24px;
+}
+
+.df-mt-3,.df-my-3{
+    margin-top:24px;
+}
+
+.df-mr-3,.df-mx-3{
+    margin-right:24px;
+}
+
+.df-mb-3,.df-my-3{
+    margin-bottom:24px;
+}
+
+.df-ml-3,.df-mx-3{
+    margin-left:24px;
+}
+
+.df-m-4{
+    margin:32px;
+}
+
+.df-mt-4,.df-my-4{
+    margin-top:32px;
+}
+
+.df-mr-4,.df-mx-4{
+    margin-right:32px;
+}
+
+.df-mb-4,.df-my-4{
+    margin-bottom:32px;
+}
+
+.df-ml-4,.df-mx-4{
+    margin-left:32px;
+}
+
+.df-m-5{
+    margin:40px;
+}
+
+.df-mt-5,.df-my-5{
+    margin-top:40px;
+}
+
+.df-mr-5,.df-mx-5{
+    margin-right:40px;
+}
+
+.df-mb-5,.df-my-5{
+    margin-bottom:40px;
+}
+
+.df-ml-5,.df-mx-5{
+    margin-left:40px;
+}
+
+.df-m-6{
+    margin:48px;
+}
+
+.df-mt-6,.df-my-6{
+    margin-top:48px;
+}
+
+.df-mr-6,.df-mx-6{
+    margin-right:48px;
+}
+
+.df-mb-6,.df-my-6{
+    margin-bottom:48px;
+}
+
+.df-ml-6,.df-mx-6{
+    margin-left:48px;
+}
+
+.df-p-0{padding:0;
+}
+
+.df-pt-0,.df-py-0{
+    padding-top:0;
+}
+
+.df-pr-0,.df-px-0{
+    padding-right:0;
+}
+
+.df-pb-0,.df-py-0{
+    padding-bottom:0;
+}
+
+.df-pl-0,.df-px-0{
+    padding-left:0;
+}
+
+.df-p-1{
+    padding:8px;
+}
+
+.df-pt-1,.df-py-1{
+    padding-top:8px;
+}
+
+.df-pr-1,.df-px-1{
+    padding-right:8px;
+}
+
+.df-pb-1,.df-py-1{
+    padding-bottom:8px;
+}
+
+.df-pl-1,.df-px-1{
+    padding-left:8px;
+}
+
+.df-p-2{
+    padding:16px;
+}
+
+.df-pt-2,.df-py-2{
+    padding-top:16px;
+}
+
+.df-pr-2,.df-px-2{
+    padding-right:16px;
+}
+
+.df-pb-2,.df-py-2{
+    padding-bottom:16px;
+}
+
+.df-pl-2,.df-px-2{
+    padding-left:16px;
+}
+
+.df-p-3{
+    padding:24px;
+}
+
+.df-pt-3,.df-py-3{
+    padding-top:24px;
+}
+
+.df-pr-3,.df-px-3{
+    padding-right:24px;
+}
+
+.df-pb-3,.df-py-3{
+    padding-bottom:24px;
+}
+
+.df-pl-3,.df-px-3{
+    padding-left:24px;
+}
+
+.df-p-4{
+    padding:32px;
+}
+
+.df-pt-4,.df-py-4{
+    padding-top:32px;
+}
+
+.df-pr-4,.df-px-4{
+    padding-right:32px;
+
+}
+
+.df-pb-4,.df-py-4{
+    padding-bottom:32px;
+}
+
+.df-pl-4,.df-px-4{
+    padding-left:32px;
+}
+
+.df-p-5{
+    padding:40px;
+}
+
+.df-pt-5,.df-py-5{
+    padding-top:40px;
+}
+
+.df-pr-5,.df-px-5{
+    padding-right:40px;
+}
+
+.df-pb-5,.df-py-5{
+    padding-bottom:40px;
+}
+
+.df-p-6{
+    padding:48px;
+}
+
+.df-pt-6,.df-py-6{
+    padding-top:48px;
+}
+
+.df-pr-6,.df-px-6{
+    padding-right:48px;
+}
+
+.df-pb-6,.df-py-6{
+    padding-bottom:48px;
+}
+
+.df-pl-6,.df-px-6{
+    padding-left:48px;
+}
+
+.df-aside{
+    -webkit-box-flex:0;
+    -webkit-flex:0 0 auto;
+    -ms-flex:0 0 auto;
+    flex:0 0 auto;
+}
+    
+
+.subframe-e{
+    background-color: lightpink;
+    display: -webkit-flex;    
+}
+
+@media screen and (min-width:542px){
+    [data-facets] .df-aside{
+        display:block;width:250px;
+    }
+    }
+    
+    .df-banner{
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-orient:horizontal;
+        -webkit-box-direction:normal;
+        -webkit-flex-flow:row nowrap;
+        -ms-flex-flow:row nowrap;
+        flex-flow:row nowrap;
+        -webkit-box-pack:center;
+        -webkit-justify-content:center;
+        -ms-flex-pack:center;
+        justify-content:center;
+        -webkit-box-align:center;
+        -webkit-align-items:center;
+        -ms-flex-align:center;
+        align-items:center;
+        margin:0 auto;
+        padding:0;
+    }
+    
+    .df-banner img{
+        max-width:100%;
+        margin:auto;
+        border:0;
+    }
+    
+    .doofinderLogo{
+        display:-webkit-inline-box;
+        display:-webkit-inline-flex;
+        display:-ms-inline-flexbox;
+        display:inline-flex;
+        color:#606569;
+        font-size:12px;
+        line-height:1.5;
+        text-decoration:none;
+        padding-right:5px;
+        -webkit-box-align:center;
+        -webkit-align-items:center;
+        -ms-flex-align:center;
+        align-items:center;
+    }
+    
+    .doofinderLogo svg{
+        width:auto;
+        height:2em;
+        margin-left:.2em;
+    }
+    
+    .df-btn,.df-classic .df-selected-filters [data-role=clear-all-filters],.df-mobile .df-selected-filters [data-role=clear-all-filters],[data-role=panel-content] [data-toggle-extra-content]{
+        background-color:transparent;
+        border:0;cursor:pointer;
+        display:inline-block;
+        font:inherit;
+        outline:0;
+        padding:.5em 1em;
+        text-align:center;
+        text-decoration:none;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none;
+        vertical-align:middle;
+        white-space:nowrap;
+        width:100%;
+        float:none;
+    }
+    
+    .df-btn:active,.df-btn:focus,.df-btn:hover,.df-classic .df-selected-filters :active[data-role=clear-all-filters],.df-classic .df-selected-filters :focus[data-role=clear-all-filters],.df-classic .df-selected-filters :hover[data-role=clear-all-filters],.df-mobile .df-selected-filters :active[data-role=clear-all-filters],.df-mobile .df-selected-filters :focus[data-role=clear-all-filters],.df-mobile .df-selected-filters :hover[data-role=clear-all-filters],[data-role=panel-content] :active[data-toggle-extra-content],[data-role=panel-content] :focus[data-toggle-extra-content],[data-role=panel-content] :hover[data-toggle-extra-content]{
+        background-color:transparent;
+        border-color:transparent;
+    }
+    
+    .df-card{
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:flex;
+        padding:0;
+        margin:0;
+    }
+    
+    .df-card__main{
+        -webkit-box-flex:1;
+        -webkit-flex:1 1 auto;
+        -ms-flex:1 1 auto;
+        flex:1 1 auto;
+        padding:16px;
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:flex;
+    }
+    
+    .df-card__image{
+        -webkit-box-flex:0;
+        -webkit-flex:0 0 auto;
+        -ms-flex:0 0 auto;
+        flex:0 0 auto;
+        height:180px;
+        padding:0;
+        overflow:hidden;
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-pack:center;
+        -webkit-justify-content:center;
+        -ms-flex-pack:center;
+        justify-content:center;
+        -webkit-box-align:center;
+        -webkit-align-items:center;
+        -ms-flex-align:center;
+        align-items:center;
+    }
+    
+    .df-card__image img{
+        display:block;
+        max-height:100%;
+        max-width:100%;
+        border:0;
+        -webkit-box-flex:0;
+        -webkit-flex:0 0 auto;
+        -ms-flex:0 0 auto;
+        flex:0 0 auto;
+        width:auto;
+    }
+    
+    .df-card__content{
+        -webkit-box-flex:1;
+        -webkit-flex:1 1 auto;
+        -ms-flex:1 1 auto;
+        flex:1 1 auto;
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+        -webkit-flex-flow:column nowrap;
+        -ms-flex-flow:column nowrap;
+        flex-flow:column nowrap;
+    }
+    
+    .df-card__content>*{
+        margin-bottom:.75rem;
+    }
+    
+    .df-card__content>:last-child{
+        margin-bottom:0;
+        margin-top:auto;
+    }
+    
+    .df-card__title{
+        -webkit-box-flex:0;
+        -webkit-flex:0 0 auto;
+        -ms-flex:0 0 auto;
+        flex:0 0 auto;
+        word-wrap:break-word;
+    }
+    
+    .df-card__description{
+        -webkit-box-flex:1;
+        -webkit-flex:1 0 auto;
+        -ms-flex:1 0 auto;
+        flex:1 0 auto;
+        display:none;
+        word-wrap:break-word;
+    }
+    
+    .df-card__pricing{
+        -webkit-box-flex:0;
+        -webkit-flex:0 0 auto;
+        -ms-flex:0 0 auto;
+        flex:0 0 auto;
+        margin-top:auto;
+    }
+    
+    .df-card__price{
+        display:inline-block;
+        margin-left:4px;
+        margin-right:4px;
+        font-weight:700;
+    }
+    
+    .df-card__price--old{
+        text-decoration:line-through;
+    }
+    
+    .df-color-list{
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-flex-wrap:wrap;
+        -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
+        -webkit-box-pack:start;
+        -webkit-justify-content:flex-start;
+        -ms-flex-pack:start;
+        justify-content:flex-start;
+        padding:0 0 0 8px;
+    }
+    
+    .df-color-list .df-color{
+        font-size:0;
+        width:26px;
+        height:26px;
+        margin:0 6px 6px 0;
+        border:1px solid transparent;
+        padding:0;
+        cursor:pointer;
+    }
+    
+    .df-color-list .df-color:active,.df-color-list .df-color:focus,.df-color-list .df-color:hover{
+        border:2px solid transparent;
+        outline:transparent solid 2px;
+    }
+    
+    .df-color-list .df-no-color{
+        font-size:inherit;
+        width:auto;
+        padding:0 4px;
+        line-height:25px;
+        -webkit-box-flex:1;
+        -webkit-flex-grow:1;
+        -ms-flex-positive:1;
+        flex-grow:1;
+        text-align:center;
+    }
+    
+    .df-color-list .df-no-color:active,.df-color-list .df-no-color:focus,.df-color-list .df-no-color:hover{
+        border:1px solid transparent;
+        outline:0;
+    }
+    
+    .df-color-list .df-color[data-selected]{
+        border:2px solid transparent;
+        outline:transparent solid 2px;
+    }
+    
+    .df-color-list .df-no-color[data-selected]{
+        border:1px solid transparent;
+        outline:0;
+    }
+    
+    .df-classic .df-selected-filters,.df-mobile .df-selected-filters,.df-panel{
+        margin:0 0 8px;
+        padding:0;
+        background-color:inherit;
+    }
+    
+    .df-classic .df-selected-filters [class*=grid],.df-mobile .df-selected-filters [class*=grid],.df-panel [class*=grid]{
+        float:none;
+        margin-left:0;
+    }
+
+    .df-classic .df-panel[data-collapse=true] .df-selected-filters__content .df-slider,.df-classic .df-panel[data-collapse=true] .df-selected-filters__content .df-term:not([data-selected]),.df-classic .df-panel[data-collapse=true] .df-selected-filters__content [data-toggle-extra-content],.df-classic .df-selected-filters[data-collapse=true] .df-panel__content .df-slider,.df-classic .df-selected-filters[data-collapse=true] .df-panel__content .df-term:not([data-selected]),.df-classic .df-selected-filters[data-collapse=true] .df-panel__content [data-toggle-extra-content],.df-classic .df-selected-filters[data-collapse=true] .df-selected-filters__content .df-slider,.df-classic .df-selected-filters[data-collapse=true] .df-selected-filters__content .df-term:not([data-selected]),.df-classic .df-selected-filters[data-collapse=true] .df-selected-filters__content [data-toggle-extra-content],.df-mobile .df-panel[data-collapse=true] .df-selected-filters__content .df-slider,.df-mobile .df-panel[data-collapse=true] .df-selected-filters__content .df-term:not([data-selected]),.df-mobile .df-panel[data-collapse=true] .df-selected-filters__content [data-toggle-extra-content],.df-mobile .df-selected-filters[data-collapse=true] .df-panel__content .df-slider,.df-mobile .df-selected-filters[data-collapse=true] .df-panel__content .df-term:not([data-selected]),.df-mobile .df-selected-filters[data-collapse=true] .df-panel__content [data-toggle-extra-content],.df-mobile .df-selected-filters[data-collapse=true] .df-selected-filters__content .df-slider,.df-mobile .df-selected-filters[data-collapse=true] .df-selected-filters__content .df-term:not([data-selected]),.df-mobile .df-selected-filters[data-collapse=true] .df-selected-filters__content [data-toggle-extra-content],.df-panel[data-collapse=true] .df-classic .df-selected-filters__content .df-slider,.df-panel[data-collapse=true] .df-classic .df-selected-filters__content .df-term:not([data-selected]),.df-panel[data-collapse=true] .df-classic .df-selected-filters__content [data-toggle-extra-content],.df-panel[data-collapse=true] .df-mobile .df-selected-filters__content .df-slider,.df-panel[data-collapse=true] .df-mobile .df-selected-filters__content .df-term:not([data-selected]),.df-panel[data-collapse=true] .df-mobile .df-selected-filters__content [data-toggle-extra-content],.df-panel[data-collapse=true] .df-panel__content .df-slider,.df-panel[data-collapse=true] .df-panel__content .df-term:not([data-selected]),.df-panel[data-collapse=true] .df-panel__content [data-toggle-extra-content]{
+        display:none;
+    }
+    .df-classic .df-selected-filters__title,.df-mobile .df-selected-filters__title,.df-panel__title{
+        display:block;
+        padding:8px 16px;
+        margin:0;
+        max-height:32px;
+        font-weight:700;
+        text-decoration:none;
+    }
+    .df-classic .df-panel--collapse .df-selected-filters__title,.df-mobile .df-panel--collapse .df-selected-filters__title,.df-panel--collapse .df-classic .df-selected-filters__title,.df-panel--collapse .df-mobile .df-selected-filters__title,.df-panel--collapse .df-panel__title{
+        background-image:url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%3Cg%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M10%207L3%207%203%206%2010%206%2010%207%2010%207Z%22%20fill%3D%22%23000000%22/%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200L12%200%2012%2012%200%2012%200%200Z%22/%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E%0A");
+        background-repeat:no-repeat;
+        background-position:right 16px center;
+    }
+    
+    .df-classic .df-panel--collapse[data-collapse=true] .df-selected-filters__title,.df-mobile .df-panel--collapse[data-collapse=true] .df-selected-filters__title,.df-panel--collapse[data-collapse=true] .df-classic .df-selected-filters__title,.df-panel--collapse[data-collapse=true] .df-mobile .df-selected-filters__title,.df-panel--collapse[data-collapse=true] .df-panel__title{
+        background-image:url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20fill%3D%22%23000000%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%3Cg%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M10%207L7%207%207%2010%206%2010%206%207%203%207%203%206%206%206%206%203%207%203%207%206%2010%206%2010%207%2010%207Z%22%20fill%3D%22%23000000%22/%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200L12%200%2012%2012%200%2012%200%200Z%22/%3E%0A%20%20%20%20%3C/g%3E%0A%3C/svg%3E%0A");
+    }
+    
+    .df-classic .df-selected-filters__content,.df-mobile .df-selected-filters__content,.df-panel__content{
+        padding:8px;
+    }
+    .df-panel__content__extra,[data-role=panel-content]:not([data-view-extra-content]) [data-extra-content]:not([data-selected]){
+        display:none;
+    }
+    
+    [data-role=panel-content] [data-view-extra-content]{
+        display:inherit;
+    }
+    .df-term{
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-pack:justify;
+        -webkit-justify-content:space-between;
+        -ms-flex-pack:justify;
+        justify-content:space-between;
+        padding:4px 8px;
+        margin-bottom:4px;
+        border:1px solid transparent;
+        background-color:inherit;
+        line-height:1.4;
+        text-decoration:none;cursor:pointer;
+    }
+    
+    .df-term__value{
+        display:block;
+        -webkit-box-flex:1;
+        -webkit-flex:1 1 auto;
+        -ms-flex:1 1 auto;
+        flex:1 1 auto;
+    }
+    
+    .df-term__count{
+        display:block;margin-left:8px
+    }
+    
+    .df-term[data-selected]{
+        border-radius:4px;
+    }
+    
+    .df-slider{
+        /*! nouislider - 11.0.3 - 2018-01-21 14:04:07 */padding-top:40px;padding-bottom:40px;margin-bottom:16px
+    }
+    
+    .df-slider,.df-slider *{
+        box-sizing:border-box;
+    }
+    
+    .df-slider .noUi-target,.df-slider .noUi-target *{
+        -webkit-touch-callout:none;
+        -webkit-tap-highlight-color:transparent;
+        -webkit-user-select:none;
+        -ms-touch-action:none;
+        touch-action:none;
+        -ms-user-select:none;
+        -moz-user-select:none;
+        user-select:none;
+        box-sizing:border-box;
+    }
+    
+    .df-slider .noUi-target{
+        position:relative;
+        direction:ltr;
+        background:#fafafa;
+        border-radius:4px;
+        border:1px solid #d3d3d3;
+        box-shadow:inset 0 1px 1px #f0f0f0,0 3px 6px -5px #bbb;margin:0 30px
+    }
+    
+    .df-slider .noUi-base,.df-slider .noUi-connects{
+        width:100%;
+        height:100%;
+        position:relative;
+        z-index:1;
+    }
+    
+    .df-slider .noUi-connects{
+        overflow:hidden;
+        z-index:0;
+    }
+    
+    .df-slider .noUi-connect,.df-slider .noUi-origin{
+        will-change:transform;
+        position:absolute;
+        z-index:1;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+        -webkit-transform-origin:0 0;
+        -o-transform-origin:0 0;
+        transform-origin:0 0;
+    }
+    
+    .df-slider .noUi-vertical .noUi-origin{
+        width:0;
+    }
+    .df-slider .noUi-horizontal .noUi-origin{
+        height:0;
+    }
+    .fancybox-margin{
+        margin-right:17px;
+    }
+
+    .category{
+    width:100%;
+    margin-top:31px;
+    padding-bottom:34px;
+    border-bottom:2px solid pink;
+    }
+
+    .df-pl-5,.df-px-5{
+        padding-left:40px;
+    }
+
+    .df-slider .noUi-state-tap .noUi-connect,.df-slider .noUi-state-tap .noUi-origin{
+        -webkit-transition:transform .3s;
+        -webkit-transition:-webkit-transform .3s;
+        transition:-webkit-transform .3s;
+        -o-transition:-o-transform .3s;transition:transform .3s;transition:transform .3s,-webkit-transform .3s,-o-transform .3s}.df-slider .noUi-state-drag *{cursor:inherit!important}.df-slider .noUi-vertical{
+            width:18px;
+        }
+        
+        .df-slider .noUi-vertical .noUi-handle{
+            width:28px;
+            height:34px;
+            left:-6px;
+            top:-17px;
+        }
+        
+       
