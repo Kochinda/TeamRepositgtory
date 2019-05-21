@@ -1,4 +1,4 @@
-#fixed{
+/* #fixed{
     position: fixed;
     width: 100%;
     margin-top: -25px;
@@ -25,7 +25,50 @@ header{
 
 .header-right li:first-child{
     margin-right:20px; 
+} */
+
+/* sayaka */
+.nav-containar{
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  height: 60px;
+
 }
+
+nav ul{
+  display: flex;    
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+.nav-list{
+  margin-inline-start: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-left: solid 4px orange;
+  color: white;
+
+}
+.nav-list:hover{
+  color: orange;
+}
+
+ul li:first-child{
+  border: none;
+  padding: 0;
+
+}
+
+ul li:last-child{
+  border: none;
+  padding: 0;
+}
+
+
+
+/* sayaka */
 
 #video {
     display: flex;
