@@ -103,6 +103,8 @@ header{
     height: 300px;
     width: 300px;
   }
+
+ 
   
   .img-box li span {
     font-size: 24px;
@@ -202,6 +204,7 @@ header{
   cursor:pointer;
 }
 
-.lightbox {
+.lightbox{
   width: 500px;
+  height:500px;
 }
