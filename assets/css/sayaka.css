@@ -1,0 +1,234 @@
+
+/* header */
+.nav-containar{
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    height: 60px;
+
+}
+
+nav ul{
+    display: flex;    
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.nav-list{
+    margin-inline-start: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-left: solid 4px orange;
+    color: white;
+
+}
+.nav-list:hover{
+    color: orange;
+}
+
+ul li:first-child{
+    border: none;
+    padding: 0;
+
+}
+
+ul li:last-child{
+    border: none;
+    padding: 0;
+}
+
+/* main-title */
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/opener_bg_menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color:wheat;
+}
+.title span{
+    margin: 30px;
+}
+
+.title h1{
+    font-size: 100px;
+    font-family: 'Knockout 47 A','Knockout 47 B';
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .13em;
+}
+
+.title p{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.btn{
+    background-color: white;
+    border-radius: 3px;
+    color: orange;
+    font-size: 25px;
+    width: 200px;
+    margin-top: 30px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: red;
+    color: white;
+    transition: all 1s;
+}
+
+
+
+
+/* main-slidedown */
+.slidedown{
+    background-color: silver;
+    width: 100%;
+    
+}
+
+.menu-title-close{
+    padding: 60px;
+}
+
+.menu-title-close ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu-title-close li{
+    display: inline;
+    font-size: 50px;
+    
+
+}
+
+.menu-title-show{
+    display: none;
+}
+
+.iconx:hover{
+    transform: rotate(135deg);
+    transition: all 2s;
+
+}
+
+
+/* card */
+
+
+.card{
+    background-color:black;
+    width: 100%;
+    display: grid;
+    grid-template:
+    "left center right" 400px
+    / 1fr 1fr 1fr; 
+    
+}
+
+.card-bg{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.giftcard{
+    background-image: url(../img/cache_1024_1024_0_0_80_16777215_GiftCard_web.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: left;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+    
+}
+
+.product{
+    background-image: url(../img/cache_1024_1024_0_0_80_16777215_unnamed.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.tshirt{
+    background-image: url(../img/cache_1024_1024_0_0_80_16777215_4R-cow-tee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: right;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text{
+    font-size: 45px;
+    color: wheat;
+    padding: 0 20px;
+    text-align: center;
+    
+
+}
+
+/* Hungry now? section */
+.hungry-now{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/IMG_1162.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+}
+.hungry-now h2{
+    color: wheat;
+    font-family: italic;
+    font-size: 40px;
+    letter-spacing: 10px;
+
+}
+
+
+
+
+
+/* footer */
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: wheat;
+}
+
+.footer p{
+    padding-top: 20px;
+    float: left;
+}
+
+.sns-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: cornsilk;
+    margin-right: 30px;
+    padding-top: 10px;
+    
+}
+
+.sns-icons li{
+    margin-left: 30px;
+}
